@@ -1,0 +1,100 @@
+/* Global Styles */
+body {
+    background-color: rgb(185, 184, 168);
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: white;
+    position: relative;
+  }
+  
+  /* Logo Styles */
+  .logo {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    max-width: 150px;
+    width: auto;
+  }
+  
+  /* Container with the background image */
+  .container {
+    /*background: url('https://i.postimg.cc/TY28jTqJ/bg4-ia.jpg') no-repeat center center/cover;*/
+    min-height: 400px; /*100vh*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Content div for text and button */
+  .content {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px 40px;
+    border-radius: 8px;
+    
+  }
+  
+  .content h2 {
+    margin-bottom: 20px;
+  }
+  
+  /* Button Styles */
+  /*button {
+    background-color: #ff96c2;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-radius: 45%;
+  }
+  
+  button:hover {
+    background-color: #7fc4f3;
+  }*/
+
+  .escolhas{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    margin: 10px;
+    gap: 100px;
+    
+  }
+  
+  #pedra, #papel, #tesoura{
+    border-radius: 50%;
+    cursor: pointer;
+  }
+
+   .escolhas_img:hover{
+    transform: scale(1.1);
+  }
+
+   #mensagem-jogo {
+            margin-top: 20px; /* Ajustado após remover o botão de jogar inicial */
+            font-size: 1.1em;
+        }
+        #resultado {
+            margin-top: 15px; /* Ajustado após remover o botão de jogar inicial */
+            font-size: 1.2em;
+            font-weight: bold;
+        }
+
+        #mensagem-jogo, #resultado{
+          display: flex;
+          flex-direction: column;
+          text-align: center;
+          align-items: center;
+        }
+  
+  /* Footer Styles */
+  footer {
+    text-align: center;
+    padding: 10px;
+    
+  }
+  

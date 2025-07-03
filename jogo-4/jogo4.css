@@ -1,0 +1,57 @@
+body {
+    background: url("https://img.elo7.com.br/product/zoom/37E6203/painel-2x1m-viloes-da-disney-tela.jpg") no-repeat center
+      center fixed;
+    background-size:cover;
+    font-family: "Gabarito", sans-serif;
+    margin: 20px;
+    
+  }
+  
+  .logo {
+    text-align: end;
+  }
+  
+  .logo img {
+    width: 40%;
+  }
+  
+  /* Caixa principal do jogo */
+  .conteudo-jogo {
+    background: rgba(0, 0, 0, 0.7);
+    box-shadow: 0 0 5px #8509d8;
+    margin: 30px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    align-items: center;
+  }
+  
+  .conteudo-jogo:hover {
+    background: rgba(0, 0, 0);
+    box-shadow: 0 0 5px #067c23;
+  }
+  
+  /* Títulos e textos */
+  h2,
+  p {
+    color: white;
+  }
+  
+  #resultadoBtn {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    margin: auto;
+    border: none;
+    background: #460472;
+    color: white;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  button:hover {
+    background: #006305;
+  }
+  
