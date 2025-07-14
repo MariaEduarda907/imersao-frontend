@@ -1,0 +1,78 @@
+/* Global Styles */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  background:
+    linear-gradient(90deg, transparent 79px, #abced4 79px, #abced4 81px, transparent 81px),
+    linear-gradient(#eee .1em, transparent .1em);
+  background-size: 100% 1.2em;
+  /*background-color: rgb(185, 184, 168);*/
+  font-family: Arial, sans-serif;
+  color: rgb(0, 0, 0);
+  position: relative;
+}
+
+.container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  text-align: center;
+  background-color: rgba(136, 130, 130, 0.5);
+  padding: 20px 40px;
+  border-radius: 8px;
+  margin-top: 0px;
+}
+
+.escolhas,
+.escolhas_img {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 30px;
+  gap: 90px;
+
+}
+
+#pedra,
+#papel,
+#tesoura {
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.escolhas_img:hover {
+  transform: scale(1.1);
+}
+
+#mensagem-jogo {
+  margin-top: 20px;
+  font-size: 1.1rem;
+}
+
+#resultado {
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+#mensagem-jogo,
+#resultado {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  margin-top: -50px;
+
+}
